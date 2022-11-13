@@ -1,1 +1,1 @@
-Repositry for the LaTeX file used to create my CV. Kept updated as I add to it, using mainly as a cloud back up
+Repositry for my CV, contains PDF and TeX file used to create said PDF.
