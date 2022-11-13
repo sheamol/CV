@@ -1,5 +1,5 @@
 \documentclass{article}
-\usepackage[a4paper, portrait, margin=1cm]{geometry}
+\usepackage[a4paper, portrait, margin=0.75cm]{geometry}
 \usepackage{enumitem}
 \usepackage{microtype}
 \usepackage{siunitx}
@@ -13,9 +13,10 @@
 \titlespacing\section{0pt}{10pt plus 4pt minus 2pt}{3pt plus 2pt minus 2pt}
 \parindent0mm
 
-\begin{document}
+\begin{document}\layout
 \begin{center}
 
+%    \newgeometry{\topmargin = 0.5cm}
 \LARGE \textbf{Sheamol Obeda\\}
 \Large {\color{DarkSlateBlue} University of Cambridge, Masters in Engineering}\\
 \normalsize \href{mailto: me@sheamol.com}{me@sheamol.com} $\mid$ 0795 210 2116 $\mid$ \href{https://www.linkedin.com/in/sheamol/}{linkedin.com/in/sheamol/}\\
@@ -42,7 +43,7 @@ First two years consisted of general engineering \medskip
 \hrulefill
 \vspace{-.5\baselineskip}
 
-\section*{Work Experience and Projects}
+\section*{Work Experience}
 
 \textbf{BidFX} \hfill 5\textsuperscript{th} Floor, York House, Kingsway, London\\
 \textit{Graduate Technologist} \hfill October 2022 $-$ Current
@@ -51,6 +52,38 @@ First two years consisted of general engineering \medskip
     \item Onboarding client sessions and liquidity providers to system to cloud based aggregation platform
     \item Handling FIX messages between internal system and liquidity providers
 \end{itemize} \medskip
+
+\textbf{King's College Summer Research Programme} \hfill King's College, Cambridge \\
+\textit{Using Machine Learning and Computer Vision to Analyse Animal Gait} \hfill June 2021 $-$ September 2021\\
+\textit{Student Researcher}
+\begin{itemize}
+    \item {Using computer vision to assess the posture and gait of sheep}
+    \item Implementation of classification methods to analyse footage
+    \item {Creating a neural network and using inference methods to evaluate the given footage}
+\end{itemize} \medskip
+
+\textbf{The MTC} \hfill Ansty Park, Coventry \\
+\textit{Design for Additive Manufacturing Team}\hfill July 2019 $-$ September 2019\\
+\textit{Summer Intern}
+\begin{itemize}
+    \item {Leading the design for additive manufacturing team to streamline additive manufacturing processing}
+    \item{Implementing topology optimisation for a range of projects}
+    \item{Use of Solidworks and NX to add GD\&T in technical drawings}
+\end{itemize} \medskip
+
+% \textbf{NCS} \hfill Birmingham \\
+% \textit{Senior Mentor} \hfill June 2018 $-$ July 2018
+% \begin{itemize}
+% \item {6 weeks of leadership of young people aged between 15 and 17}
+% \item{Overlooked the welfare and safeguarding of 24 young people over the NCS summer program}
+% \item {Developing strong problem solving skills in tough situations when responsible for young people}
+% \end{itemize}\medskip
+
+\vspace{-.5\baselineskip}
+\hrulefill
+\vspace{-.5\baselineskip}
+
+\section*{Projects}
 
 \textbf{Wireless Motion Capture} \hfill Centre for Advanced Photonics and Electronics, Cambridge\\
 \textit{Masters Project} \hfill October 2021 $-$ June 2022
@@ -73,14 +106,6 @@ First two years consisted of general engineering \medskip
     \item Using regression methods to implement system for projections for a given set of data 
     \item Deployment of Bayesian Inference, Gaussian Processes, Probabilistic Ranking, and Latent Dirichlet Allocation
 \end{itemize}\medskip
-
-\textbf{Using Machine Learning and Computer Vision to Analyse Animal Gait} \hfill King's College, Cambridge \\
-\textit{Research Programme} \hfill June 2021 $-$ September 2021
-\begin{itemize}
-\item {Using computer vision to assess the posture and gait of sheep}
-\item Implementation of classification methods to analyse footage
-\item {Creating a neural network and using inference methods to evaluate the given footage}
-\end{itemize} \medskip
 
 \textbf{CO$_{2}$ Data Analysis} \hfill  March 2020
 \begin{itemize}
@@ -112,22 +137,6 @@ First two years consisted of general engineering \medskip
 % \item {Research implemented into app for users to easily access}
 % \end{itemize}\medskip
 
-% \textbf{NCS} \hfill Birmingham \\
-% \textit{Senior Mentor} \hfill June 2018 $-$ July 2018
-% \begin{itemize}
-% \item {6 weeks of leadership of young people aged between 15 and 17}
-% \item{Overlooked the welfare and safeguarding of 24 young people over the NCS summer program}
-% \item {Developing strong problem solving skills in tough situations when responsible for young people}
-% \end{itemize}\medskip
-
-\textbf{The MTC} \hfill Ansty Park, Coventry \\
-\textit{Design for Additive Manufacturing Team, Summer Intern} \hfill July 2019 $-$ September 2019
-\begin{itemize}
-\item {Leading the design for additive manufacturing team to streamline additive manufacturing processing}
-\item{Implementing topology optimisation for a range of projects}
-\item{Use of Solidworks and NX to add GD\&T in technical drawings}
-\end{itemize} \medskip
-
 % \textbf{Stem Society}\\
 % \textit{Computing Sub-team Leader} \hfill  September 2016 $-$ June 2017
 % \begin{itemize}
@@ -140,7 +149,7 @@ First two years consisted of general engineering \medskip
 \hrulefill
 \vspace{-.5\baselineskip}
 
-\clearpage
+\clearpage \restoregeometry
 \section*{Activities}
 
 \textbf{Entrepreneurship}\\
